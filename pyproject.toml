@@ -19,8 +19,14 @@ classifiers = [
 ]
 
 
+[tool.poetry.scripts]
+cookiecutterr = 'better_cookiecutter:wrap_cookiecutter'
+
+
 [tool.poetry.dependencies]
 python = "^3.7"
+cookiecutter = "*"
+PyYAML = "^5.3.1"
 
 [tool.poetry.dev-dependencies]
 black = "^19.10b0"
