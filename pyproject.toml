@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "cookiebutter"
-version = "0.0.2"
-description = "Cookiecutter, but all buttered up. Use cookiecutter with yaml files, or even with python files."
+version = "0.1.0"
+description = "Cookiecutter, but all buttered up 🧈 Use cookiecutter with yaml files, or even with python files"
 authors = ["Tom Gringauz <tomgrin10@gmail.com>"]
 license = "MIT"
 readme = "README.md"
@@ -12,7 +12,8 @@ documentation = ""
 keywords = ["cookiecutter", "better", "yaml"]
 
 classifiers = [
-    'Development Status :: 5 - Production/Stable',
+    'Development Status :: 3 - Alpha',
+#    'Development Status :: 5 - Production/Stable',
     'Intended Audience :: Developers',
     'Topic :: Utilities',
     'Typing :: Typed'
