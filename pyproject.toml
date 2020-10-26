@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "better-cookiecutter"
-version = "0.0.1"
-description = "Use cookiecutter with yaml files, or even with python files"
+name = "cookiebutter"
+version = "0.0.2"
+description = "Cookiecutter, but all buttered up. Use cookiecutter with yaml files, or even with python files."
 authors = ["Tom Gringauz <tomgrin10@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 homepage = ""
-repository = "https://github.com/tomgrin10/better-cookiecutter"
+repository = "https://github.com/tomgrin10/cookiebutter"
 documentation = ""
 
 keywords = ["cookiecutter", "better", "yaml"]
@@ -20,7 +20,7 @@ classifiers = [
 
 
 [tool.poetry.scripts]
-cookiecutterr = 'better_cookiecutter:wrap_cookiecutter'
+cookiebutter = 'cookiebutter:wrap_cookiecutter'
 
 
 [tool.poetry.dependencies]
